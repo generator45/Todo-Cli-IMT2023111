@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USER = 'jayeshpandit'
-        ROLLNO = 'IMT2023111'
+        ROLLNO = 'imt2023111'
         IMAGE_NAME = "${DOCKERHUB_USER}/${ROLLNO}-todo-cli"
     }
 
